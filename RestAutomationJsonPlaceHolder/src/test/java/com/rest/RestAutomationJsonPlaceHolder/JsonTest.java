@@ -10,9 +10,11 @@ import com.jayway.restassured.path.json.JsonPath;
 
 public class JsonTest {
 
+	
 	@Test
 	public void getUserid() {
 		
+		//Using Path Param
 		given()
 		.pathParam("userId", "7")
 		//.queryParam("userId", 7)
